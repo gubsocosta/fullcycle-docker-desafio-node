@@ -5,10 +5,11 @@ services:
     build:
       context: ./node
       dockerfile: Dockerfile
-    image: gubsocosta/node-fs3.0-desafio-docker
+    image: gubsocosta/node-fs3.0-desafio-docker:latest
     container_name: app
     tty: true
     volumes:
-      - ./node:/usr/src/app
+      - ./node:/home/node/app
+      - /home/node/app/node_modules
     ports:
       - "3000:3000"

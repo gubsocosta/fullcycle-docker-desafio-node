@@ -7,15 +7,14 @@ Projeto idealizado para resolver o desafio do curso de Docker da plataforma Full
 - docker compose v2
 - conhecimentos básicos sobre a utilização do terminal linux
 ## 2 - Iniciando a aplicação
-### 2.1 - Em modo de desenvolvimento
 Em seu terminal, execute o comando abaixo:
 
 ```bash
 $ docker compose up -d
 ```
-### 2.2 - Em modo de produção
-Em seu terminal, execute o comando abaixo:
 
-```bash
-$ docker compose -f docker-compose-prod.yml up -d
-```
+Vá ao seu navegador de preferência e acesse a URL `http://localhost:3000`
+
+(Opcional) Adicione o *query param* `name`, para adicionar valores diferentes do padrão.
+
+Ex.: *http://localhost:3000?name=Foo*

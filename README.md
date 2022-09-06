@@ -13,8 +13,8 @@ Em seu terminal, execute o comando abaixo:
 $ docker compose up -d
 ```
 
-Vá ao seu navegador de preferência e acesse a URL `http://localhost:3000`
+Vá ao seu navegador de preferência e acesse a URL `http://localhost:8080`
 
 (Opcional) Adicione o *query param* `name`, para adicionar valores diferentes do padrão.
 
-Ex.: *http://localhost:3000?name=Foo*
+Ex.: *http://localhost:8080?name=Foo*
